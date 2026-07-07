@@ -8,16 +8,16 @@ class Node{
     }
 }
 public class Main {
-    public static Node arrToString(int[] arr,Node head){
-        Node mover=head;
-        for(int i=1;i<arr.length;i++){
-            Node temp=new Node(arr[i]);
-            mover.next=temp;
-            mover=temp;
-        }
+    // public static Node arrToString(int[] arr,Node head){
+    //     Node mover=head;
+    //     for(int i=1;i<arr.length;i++){
+    //         Node temp=new Node(arr[i]);
+    //         mover.next=temp;
+    //         mover=temp;
+    //     }
 
-        return head;
-    }
+    //     return head;
+    // }
     public static int printLL(Node y){
         int count=0;
         while(y!=null){
