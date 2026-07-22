@@ -38,10 +38,22 @@ public class Main{
         
     }
 
+    public static Node deleteTail(Node head){
+        Node temp=head;
+        while(temp.next !=null){
+            temp=temp.next;
+        }
+        Node prev=temp.back;
+        prev.next =null;
+        temp.back=null;
+        return head;
+    }
+
 
     public static void main(String[] args){
         int[] arr={2,5,8,6,10};
         Node head=convertToDLL(arr);
+        deleteTail(head);
         Print(head);
     }
 }
