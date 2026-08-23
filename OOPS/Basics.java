@@ -1,9 +1,25 @@
-class Basics{
+class employee{
+    String name;
+    int salary;
+
+    void setname(String name){
+        this.name=name;
+    }
+
+    void setSalary(int salary){
+        this.salary=salary;
+    }
+
+    int getSalary(int salary){
+        return salary;
+    }
+}
+public class Basics{
     public static void main(String[] args){
-        System.out.println("Hello World");
-        int num1=7;
-        int num2=num1++;
-        System.out.println(num1);
-        int[][] arr={{2,4},};
+        employee e1=new employee();
+        employee e2=new employee();
+        e1.setSalary(1000);
+        e2.setname("rohit");
+        System.out.println(e1.getSalary(1000));
     }
 }
