@@ -5,11 +5,9 @@ class employee{
     void setname(String name){
         this.name=name;
     }
-
     void setSalary(int salary){
         this.salary=salary;
     }
-
     int getSalary(int salary){
         return salary;
     }
