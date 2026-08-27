@@ -8,9 +8,7 @@ class employee{
     void setSalary(int salary){
         this.salary=salary;
     }
-    int getSalary(int salary){
-        return salary;
-    }
+    
 }
 public class Basics{
     public static void main(String[] args){
