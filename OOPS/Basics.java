@@ -9,6 +9,7 @@ class employee{
         this.salary=salary;
     }
     
+    
 }
 public class Basics{
     public static void main(String[] args){
