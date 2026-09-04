@@ -10,10 +10,14 @@ class BankAccount{
         this.name=name;
         System.out.println(name);
     }
+    public double checkBalance(){
+        return balance;
+    }
 }
 public class OOPS{
     public static void main(String[] args){
         BankAccount e1=new BankAccount("samyak",1000);
-        e1.setname("raj");
+        e1.setname("samyak jain");
+        System.out.println(e1.checkBalance());;
     }
 }
