@@ -1,4 +1,4 @@
-package OOPS_day2;
+package Attributes_Methods;
 class BankAccount{
     private String name;
     private double balance;
