@@ -38,16 +38,7 @@ public class Main{
         
     }
 
-    public static Node deleteTail(Node head){
-        Node temp=head;
-        while(temp.next !=null){
-            temp=temp.next;
-        }
-        Node prev=temp.back;
-        prev.next =null;
-        temp.back=null;
-        return head;
-    }
+
 
 
     public static void main(String[] args){
